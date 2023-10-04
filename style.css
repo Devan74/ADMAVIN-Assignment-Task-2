@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-indent: 0;
+    font-family: "Poppins", sans-serif;
+  }
+  
+  .header {
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: var(--z-fixed);
+    background: #ebeff7;
+    color: white;
+    box-shadow: 0 1px 4px rgba(146, 161, 176, 0.15);
+  }
+  .nav_logo {
+    color: #3c64b1;
+    padding: 1rem 2rem;
+    margin: 0 0 2rem 10rem;
+    font-size: 1.5rem;
+    text-decoration: none;
+  }
+  .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .nav_list {
+    display: flex;
+    justify-content: center;
+   
+  }
+  .nav_link {
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: black;
+  }
+  .nav_link:hover {
+    color: #3c64b1;
+  }
+  .button {
+    background-color: #3c64b1;
+    color: #f8f9fc;
+    padding: 1rem 2rem;
+    margin: 1.5rem 10rem 0 0;
+    border: none;
+  }
+  .login-btn{
+    color: #3c64b1;
+    background-color: none;
+    border: none;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 1.2rem 0 0  23rem ;
+  }
+  .home {
+    margin: 0rem 0 0 12rem;
+    text-align: center;
+  }
+  .home-head {
+    color: #373f41;
+    font-weight: 600;
+    font-size: 3rem;
+  }
+  .home-summary {
+    padding: 3rem 0 1.5rem 0;
+    color: #373f41;
+    font-size: 1.2rem;
+    opacity: 70%;
+  }
+  .home-btn {
+    background-color: #3c64b1;
+    color: #f8f9fc;
+    padding: 1rem 2rem;
+    letter-spacing: 1.5px;
+    border: none;
+  }
+  .home-btn-lern{
+    border: solid #3c64b1 2px;
+    margin: 0.5rem;
+    background-color:#f8f9fc ;
+    color: #3c64b1;
+    font-size: 1rem;
+    padding: 0.8rem 2rem;
+  }
+  .home-card {
+    height: 30rem;
+    width: 50rem;
+    margin: 10rem 0 0 10rem;
+  } 
+  .shipcart{
+    text-align: center;
+  }
+  .cart-head{
+    color: #373f41;
+    font-weight: 600;
+    font-size: 2rem;
+    margin: 5rem 0 1.8rem 0;
+  }
+  .cart-summary{
+    opacity: 50%;
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .ship-cards{
+    display: flex;
+    justify-content: center;
+  }
+  .shipcard{
+    width: 24rem;
+    height: 16rem;
+    padding: 2rem;
+  }
+  .card-head{
+    color: #373f41;
+    font-size: 1.2rem;
+    font-weight: 600;
+    padding: 1rem;
+  }
+  .card-summary{
+    opacity: 50%;
+  }
+  .hlink{
+    margin: 2rem;
+    color: #3c64b1;
+    font-weight: 550;
+  }
+  i {
+    color: #3c64b1;
+    font-size: 2rem;
+    padding: 0.5rem;
+  }
